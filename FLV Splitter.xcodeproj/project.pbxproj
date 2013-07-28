@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67448DF117637DD2008BD000 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 67448DF017637DD2008BD000 /* icon.icns */; };
 		676ACDF3175E167D00F072B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676ACDF2175E167D00F072B2 /* Cocoa.framework */; };
 		676ACDFD175E167D00F072B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 676ACDFB175E167D00F072B2 /* InfoPlist.strings */; };
 		676ACDFF175E167D00F072B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676ACDFE175E167D00F072B2 /* main.m */; };
@@ -16,19 +17,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		676ACDEF175E167D00F072B2 /* flvsplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flvsplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67448DF017637DD2008BD000 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		676ACDEF175E167D00F072B2 /* FLV Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLV Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		676ACDF2175E167D00F072B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		676ACDF5175E167D00F072B2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		676ACDF6175E167D00F072B2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		676ACDF7175E167D00F072B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		676ACDFA175E167D00F072B2 /* flvsplitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flvsplitter-Info.plist"; sourceTree = "<group>"; };
+		676ACDFA175E167D00F072B2 /* FLV Splitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLV Splitter-Info.plist"; sourceTree = "<group>"; };
 		676ACDFC175E167D00F072B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		676ACDFE175E167D00F072B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		676ACE00175E167D00F072B2 /* flvsplitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flvsplitter-Prefix.pch"; sourceTree = "<group>"; };
+		676ACE00175E167D00F072B2 /* FLV Splitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLV Splitter-Prefix.pch"; sourceTree = "<group>"; };
 		676ACE02175E167D00F072B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		676ACE04175E167D00F072B2 /* chengangAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chengangAppDelegate.h; sourceTree = "<group>"; };
 		676ACE05175E167D00F072B2 /* chengangAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chengangAppDelegate.m; sourceTree = "<group>"; };
 		676ACE08175E167E00F072B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		67A0123E17953C11002CDEC3 /* FLV Splitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FLV Splitter.entitlements"; sourceTree = "<group>"; };
+		67F08FFE1793A82200B22367 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		67F08FFF1793A82200B22367 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		67F090001793A82200B22367 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,8 @@
 		676ACDE6175E167D00F072B2 = {
 			isa = PBXGroup;
 			children = (
+				67A0123E17953C11002CDEC3 /* FLV Splitter.entitlements */,
+				67448DF017637DD2008BD000 /* icon.icns */,
 				676ACDF8175E167D00F072B2 /* flvsplitter */,
 				676ACDF1175E167D00F072B2 /* Frameworks */,
 				676ACDF0175E167D00F072B2 /* Products */,
@@ -55,7 +63,7 @@
 		676ACDF0175E167D00F072B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				676ACDEF175E167D00F072B2 /* flvsplitter.app */,
+				676ACDEF175E167D00F072B2 /* FLV Splitter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,10 +101,10 @@
 		676ACDF9175E167D00F072B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				676ACDFA175E167D00F072B2 /* flvsplitter-Info.plist */,
+				676ACDFA175E167D00F072B2 /* FLV Splitter-Info.plist */,
 				676ACDFB175E167D00F072B2 /* InfoPlist.strings */,
 				676ACDFE175E167D00F072B2 /* main.m */,
-				676ACE00175E167D00F072B2 /* flvsplitter-Prefix.pch */,
+				676ACE00175E167D00F072B2 /* FLV Splitter-Prefix.pch */,
 				676ACE01175E167D00F072B2 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		676ACDEE175E167D00F072B2 /* flvsplitter */ = {
+		676ACDEE175E167D00F072B2 /* FLV Splitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 676ACE0C175E167E00F072B2 /* Build configuration list for PBXNativeTarget "flvsplitter" */;
+			buildConfigurationList = 676ACE0C175E167E00F072B2 /* Build configuration list for PBXNativeTarget "FLV Splitter" */;
 			buildPhases = (
 				676ACDEB175E167D00F072B2 /* Sources */,
 				676ACDEC175E167D00F072B2 /* Frameworks */,
@@ -117,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = flvsplitter;
+			name = "FLV Splitter";
 			productName = flvsplitter;
-			productReference = 676ACDEF175E167D00F072B2 /* flvsplitter.app */;
+			productReference = 676ACDEF175E167D00F072B2 /* FLV Splitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,19 +140,20 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "陈 钢";
 			};
-			buildConfigurationList = 676ACDEA175E167D00F072B2 /* Build configuration list for PBXProject "flvsplitter" */;
+			buildConfigurationList = 676ACDEA175E167D00F072B2 /* Build configuration list for PBXProject "FLV Splitter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 676ACDE6175E167D00F072B2;
 			productRefGroup = 676ACDF0175E167D00F072B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				676ACDEE175E167D00F072B2 /* flvsplitter */,
+				676ACDEE175E167D00F072B2 /* FLV Splitter */,
 			);
 		};
 /* End PBXProject section */
@@ -157,6 +166,7 @@
 				676ACDFD175E167D00F072B2 /* InfoPlist.strings in Resources */,
 				676ACE03175E167D00F072B2 /* Credits.rtf in Resources */,
 				676ACE09175E167E00F072B2 /* MainMenu.xib in Resources */,
+				67448DF117637DD2008BD000 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +189,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				676ACDFC175E167D00F072B2 /* en */,
+				67F08FFF1793A82200B22367 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -187,6 +198,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				676ACE02175E167D00F072B2 /* en */,
+				67F090001793A82200B22367 /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -195,6 +207,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				676ACE08175E167E00F072B2 /* en */,
+				67F08FFE1793A82200B22367 /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -215,6 +228,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -231,6 +245,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -248,6 +263,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -257,6 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -264,11 +281,15 @@
 		676ACE0D175E167E00F072B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FLV Splitter.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "flvsplitter/flvsplitter-Prefix.pch";
-				INFOPLIST_FILE = "flvsplitter/flvsplitter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "flvsplitter/FLV Splitter-Prefix.pch";
+				INFOPLIST_FILE = "flvsplitter/FLV Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "FLV Splitter";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +297,15 @@
 		676ACE0E175E167E00F072B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FLV Splitter.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "flvsplitter/flvsplitter-Prefix.pch";
-				INFOPLIST_FILE = "flvsplitter/flvsplitter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "flvsplitter/FLV Splitter-Prefix.pch";
+				INFOPLIST_FILE = "flvsplitter/FLV Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "FLV Splitter";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		676ACDEA175E167D00F072B2 /* Build configuration list for PBXProject "flvsplitter" */ = {
+		676ACDEA175E167D00F072B2 /* Build configuration list for PBXProject "FLV Splitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				676ACE0A175E167E00F072B2 /* Debug */,
@@ -297,13 +322,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		676ACE0C175E167E00F072B2 /* Build configuration list for PBXNativeTarget "flvsplitter" */ = {
+		676ACE0C175E167E00F072B2 /* Build configuration list for PBXNativeTarget "FLV Splitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				676ACE0D175E167E00F072B2 /* Debug */,
 				676ACE0E175E167E00F072B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
